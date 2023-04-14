@@ -368,7 +368,7 @@ async (getUserInput) => {
       assert.isAtLeast(
         test.assertions.length,
         1,
-        'At least one assertion per test'
+        'At least one assertion per test. Assert.throws() does not count'
       );
     });
   } catch (err) {
@@ -393,7 +393,7 @@ async (getUserInput) => {
       assert.isAtLeast(
         test.assertions.length,
         1,
-        'At least one assertion per test'
+        'At least one assertion per test. Assert.throws() does not count'
       );
     });
   } catch (err) {
